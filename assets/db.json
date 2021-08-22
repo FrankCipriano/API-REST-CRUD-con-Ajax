@@ -1,0 +1,93 @@
+{
+  "lenguajes": [
+    {
+      "id": 1,
+      "tecnologia": "Javascript - ES 6",
+      "stack": "Front End"
+    },
+    {
+      "id": 2,
+      "tecnologia": "Node.js",
+      "stack": "Back End"
+    },
+    {
+      "id": 3,
+      "tecnologia": "Express.js",
+      "stack": "Back End"
+    },
+    {
+      "id": 4,
+      "tecnologia": "MongoDB",
+      "stack": "Back End"
+    },
+    {
+      "id": 5,
+      "tecnologia": "Python",
+      "stack": "Back End"
+    },
+    {
+      "id": 6,
+      "tecnologia": "Django",
+      "stack": "Back End"
+    },
+    {
+      "id": 7,
+      "tecnologia": "MariaDB",
+      "stack": "Back End"
+    },
+    {
+      "id": 8,
+      "tecnologia": "Java",
+      "stack": "Basico"
+    },
+    {
+      "id": 9,
+      "tecnologia": "Git",
+      "stack": "Control de Versiones"
+    },
+    {
+      "id": 10,
+      "tecnologia": "GitHub",
+      "stack": "Repositorio"
+    },
+    {
+      "id": 11,
+      "tecnologia": "C++",
+      "stack": "Básico"
+    },
+    {
+      "id": 12,
+      "tecnologia": "HTML",
+      "stack": "Front End"
+    },
+    {
+      "id": 13,
+      "tecnologia": "CSS",
+      "stack": "Front End"
+    },
+    {
+      "id": 14,
+      "tecnologia": "Visual Basic",
+      "stack": "Básico"
+    },
+    {
+      "tecnologia": "NPM",
+      "stack": "Gestor de Paquetes",
+      "id": 15
+    }
+  ],
+  "instructor": [
+    {
+      "id": 1,
+      "nombre": "Jonathan Mircha"
+    },
+    {
+      "id": 2,
+      "nombre": "Hector Hernandez"
+    },
+    {
+      "id": 3,
+      "nombre": "Oscar UsKoKrUm"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD API REST AJAX</title>
+</head>
+<body>
+    <h1>CRUD, API REST AJAX</h1>
+    <section class="crud">
+        <article>
+            <h2 class="titulo">AGREGAR OTRA TECNOLOGIA</h2>
+            <form class="formulario">
+                <input type="text" name="tecnologia" placeholder="Tecnologia" required>
+                <br>
+                <input type="text" name="stack" placeholder="Stack" required>
+                <br>
+                <input type="submit" value="ENVIAR">
+                <input type="hidden" name="id">
+            </form>
+        </article>
+        <article>
+            <h2>VER MIS TECNOLOGIAS</h2>
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>TECNOLOGIA</th>
+                        <th>STACK</th>
+                        <th>ACCIONES</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </article>
+    </section>
+    <template id="plantilla">
+        <tr>
+            <td class="tecnologia"></td>
+            <td class="stack"></td>
+            <td>
+                <button class="editar">Editar</button>
+                <button class="eliminar">Eliminar</button>
+            </td>
+        </tr>
+    </template>
+    <script src="js/crud_xhr.js"></script>
+</body>
+</html>
